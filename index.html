@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto py-6 px-4">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+        </div>
+    </header>
+    <main class="container mx-auto py-8 px-4">
+        <section id="introduction" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Introduction</h2>
+            <p>Hi, I'm Harisiva , a Computer Science student with a passion for technology and a goal to innovate and excel in the tech industry.</p>
+        </section>
+        <section id="background" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Background</h2>
+            <ul class="list-disc pl-5">
+                <li>Pursuing Bachelor of Engineering in Computer Science - Easwari Engineering College</li>
+                <li>10th and 12th grade - Velammal Matric Hr.Sec School </li>
+                <li>Certification in 2D and 3D animation courses</li>
+            </ul>
+        </section>
+        <section id="projects" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div id="projects-list" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+        </section>
+        <section id="skills" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc pl-5">
+                <li>Programming Languages: Java, Python, C++</li>
+                <li>Web Development: HTML, CSS, React</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        <section id="contact" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <form id="contact-form" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium">Name</label>
+                    <input type="text" id="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium">Message</label>
+                    <textarea id="message" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm"></textarea>
+                </div>
+                <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md">Send</button>
+            </form>
+            <p class="mt-4">LinkedIn: <a href="https://www.linkedin.com/in/hari-siva-23506b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-600 hover:underline">https://www.linkedin.com/in/Harisiva</a></p>
+            <p class="mt-4">Instagram: <a href="https://www.instagram.com/siva.666x?igsh=MWw4cjVvNXM1bTdyeg%3D%3D&utm_source=qr" class="text-blue-600 hover:underline">https://www.instagram.com/in/siva.666x</a></p>
+            <p class="mt-4">Contact:+91 6382412501</p>
+            
+        </section>
+    </main>
+    <footer class="bg-white shadow mt-8 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 [Harisiva]. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
